@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/icons8-bookmark-500.png" type="image/x-icon">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>favBook</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+
+            </nav>
+            <h3 class="text-muted">Bookmark Library<i class="fa-solid fa-book-bookmark"></i></h3>
+        </div>
+
+        <div class="jumbotron">
+            <h2>Добавьте свои любимые сайты в закладки</h2>
+            <form id="myForm" action="">
+                <div class="form-group">
+                    <label for="">Название сайта</label>
+                    <input type="text" class="form-control" id="siteName" placeholder="Имя веб-сайта">
+                </div>
+                <div class="form-group">
+                    <label for="">Ссылка сайта</label>
+                    <input type="text" class="form-control" id="siteUrl" placeholder="Ссылка веб-сайта">
+                </div>
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+            </form>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div id="bookmarksResults">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 favBook | Dave.T</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
