@@ -1,7 +1,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: url(/bookmark/img/book.png) no-repeat fixed center center / cover;
+  background: url(../img/book.png) no-repeat fixed center center / cover;
   min-height: 100vh;
   position: relative;
 }
